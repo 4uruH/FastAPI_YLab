@@ -13,8 +13,6 @@ from database import Base
 
 config = context.config
 
-config = context.config
-
 section = config.config_ini_section
 config.set_section_option(section, "DB_HOST", DB_HOST)
 config.set_section_option(section, "DB_PORT", DB_PORT)

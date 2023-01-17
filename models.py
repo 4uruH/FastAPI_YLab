@@ -16,7 +16,7 @@ class Menus(Base):
 
 
 class SubMenus(Base):
-    __tablename__ = "sub menus"
+    __tablename__ = "submenus"
     id = Column(Integer, primary_key=True)
     title = Column(String, nullable=False, unique=True)
     description = Column(Text)
@@ -27,7 +27,7 @@ class SubMenus(Base):
 
 
 class Dishes(Base):
-    __tablename__ = "dishes",
+    __tablename__ = "dishes"
     id = Column(Integer, primary_key=True)
     title = Column(String, nullable=False, unique=True)
     description = Column(Text)
